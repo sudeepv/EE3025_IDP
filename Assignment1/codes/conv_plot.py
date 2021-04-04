@@ -2,13 +2,14 @@ import numpy as np
 import soundfile as sf
 from scipy import signal
 import matplotlib.pyplot as plt
+from scipy import array, zeros, signal
+from scipy.fftpack import fft, ifft, convolve
 
 #If using termux
 import subprocess
 import shlex
 #end if
-from scipy import array, zeros, signal
-from scipy.fftpack import fft, ifft, convolve
+
 
 #function to perform circular convolution
 

@@ -18,7 +18,7 @@ plt.tight_layout()
 plt.savefig('../figs/ifft.eps')
 plt.savefig('../figs/ifft.pdf')
 
-#subprocess.run(shlex.splilt("termux-open ../Figures/ifft_yn.pdf"))
+subprocess.run(shlex.splilt("termux-open ../Figures/ifft_yn.pdf"))
 
 #else
-plt.show()
+#plt.show()
